@@ -48,14 +48,16 @@ class MyApp extends StatelessWidget {
                             style: TextStyle(
                                 color: Colors.white70,
                                 fontSize: 16,
-                                fontWeight: FontWeight.w400),
+                                // fontWeight: FontWeight.w400
+                                fontWeight: FontWeight.w300
+                                ),
                           )),
                           Container(
                               child: Row(
                             children: <Widget>[
                               Container(
                                 width: length,
-                                height: 6,
+                                height: 5,
                                 margin: EdgeInsets.only(top: 7),
                                 decoration: BoxDecoration(
                                     // color: Colors.amberAccent,
@@ -65,7 +67,7 @@ class MyApp extends StatelessWidget {
                               ),
                               Container(
                                 width: (100 - length),
-                                height: 6,
+                                height: 5,
                                 margin: EdgeInsets.only(top: 7),
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.horizontal(
@@ -82,7 +84,9 @@ class MyApp extends StatelessWidget {
                         padding: EdgeInsets.only(left: 10),
                         child: Text(count.toString(),
                             style: TextStyle(
-                              color: Colors.amber,
+                              // color: Colors.amber,
+                              fontWeight: FontWeight.w200,
+                              color: Color.fromRGBO(255, 255, 255, .6),
                               fontSize: 36,
                             )),
                       )
