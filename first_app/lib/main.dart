@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
           child: Row(
             children: <Widget>[
               Container(
-                child: Icon(icon, size: 40, color: Colors.amberAccent),
+                child: Icon(icon, size: 40, color: Color.fromRGBO(255, 215, 35, .9)),
                 padding: EdgeInsets.only(right: 8),
                 decoration: BoxDecoration(
                     border: Border(
