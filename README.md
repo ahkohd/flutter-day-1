@@ -1,5 +1,7 @@
 # Yeah, My First Flutter App
 Hmm, a friend of mine told me how awesome flutter was. He kept hammering this, then I said to myself I should try it out. I went on to download the SDK and set things up. I followed the [First layout tutorial](https://flutter.dev/docs/development/ui/layout/tutorial) and kept checking the [Docs](https://flutter.dev/docs/reference/widgets) when I encountered an error. Boom after some few hours I was able to come up with this. 
+## Screenshot
+![](screen-shot.png)
 
 
 # License
