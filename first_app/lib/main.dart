@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
       child: Container(
           margin: EdgeInsets.only(bottom: 10),
           decoration: BoxDecoration(
-              color: Color(0xff111111),
+              // color: Color(0xff111111),
+              color: Color.fromRGBO(0, 0, 0, .2),
               borderRadius: BorderRadius.circular(5),
               boxShadow: [
                 BoxShadow(
@@ -57,7 +58,8 @@ class MyApp extends StatelessWidget {
                                 height: 6,
                                 margin: EdgeInsets.only(top: 7),
                                 decoration: BoxDecoration(
-                                    color: Colors.amberAccent,
+                                    // color: Colors.amberAccent,
+                                    color: Color.fromRGBO(255, 215, 25, .9),
                                     borderRadius: BorderRadius.horizontal(
                                         left: Radius.circular(4))),
                               ),
@@ -68,7 +70,9 @@ class MyApp extends StatelessWidget {
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.horizontal(
                                         right: Radius.circular(4)),
-                                    color: Color(0xff2222222)),
+                                    // color: Color(0xff2222222)),
+                                    color: Color.fromRGBO(255, 255, 255, .1)),
+
                               ),
                             ],
                           ))
